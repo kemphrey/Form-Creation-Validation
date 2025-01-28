@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         // Display feedback based on validation
-        feedbackDiv.style.display = 'block'; // Show feedback div
+        feedbackDiv.style.display = 'block'; 
 
         if (isValid) {
             feedbackDiv.textContent = "Registration successful!";
